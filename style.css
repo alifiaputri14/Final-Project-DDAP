@@ -1,0 +1,285 @@
+.navbar {
+    background-color: #be916e;
+}
+.iconnav {
+    padding-top: 10px;
+    color: white;
+}
+.navbar li {
+    color: white;
+}
+.icon {
+    display: flex;
+}
+.icon ul {
+    padding-right: 70px;
+    display: flex;
+}
+.icon i {
+    margin-left: 35px;
+}
+@media (max-width: 992px) {
+    .iconnav {
+        text-indent: -9999px;
+        margin-bottom: -50%;
+    }
+}
+@media (min-width: 992px) {
+    .ikon {
+        text-indent: -9999px;
+    }
+}
+.img-fluid {
+    width: 100%;
+    object-fit: cover;
+}
+
+.About img {
+    width: 400px;
+}
+
+.About p {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.About {
+    background-color: #be916e;
+    border-color: #be916e;
+}
+.About h3 {
+    text-align: center;
+    align-items: center;
+    font-family: "Roboto Light";
+    color: white;
+}
+
+.Activity {
+    background-color: #ffeddb;
+}
+.Activity img {
+    width: 400px;
+}
+.Activity p {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+.Activity {
+    background-color: #ffeddb;
+}
+.Activity h3 {
+    text-align: center;
+    align-items: center;
+    font-family: "Roboto Light";
+
+    color: black;
+}
+
+.popular {
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #ffeddb;
+}
+.popular h6 {
+    font-family: "Prompt", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #a6bea1;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.popular h2 {
+    font-family: "Inria Serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #454443;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.popular .product {
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 30px;
+    width: 260px;
+}
+.product1 {
+    width: 240px;
+    padding-bottom: 10px;
+    margin-left: -2px;
+}
+.product-body {
+    margin-left: -2px;
+}
+.product-body p {
+    margin-bottom: 5px;
+}
+.nama-product {
+    font-family: "Prompt", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #454443;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.nama-product:hover {
+    color: #a6bea1;
+}
+.harga-product {
+    color: #454443;
+    font-size: 13px;
+}
+.popular .tombol1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.tbl1-shop {
+    border-color: #be916e;
+    border-style: solid;
+    border-radius: 50px;
+    width: 240px;
+    height: 40px;
+    color: chocolate;
+    display: inline-block;
+    margin: auto;
+    font-family: "Prompt", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 32px;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+    padding-top: 4px;
+}
+.tbl1-shop:hover {
+    color: #454443;
+}
+@media (max-width: 480px) {
+    .popular h6 {
+        font-size: 12px;
+        line-height: 32px;
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+    .popular h2 {
+        font-size: 28px;
+        line-height: 32px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .tbl1-shop {
+        width: 220px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 32px;
+        padding-top: 5px;
+    }
+}
+.brand {
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #be916e;
+}
+.brand h6 {
+    font-family: "Prompt", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #a6bea1;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.brand h2 {
+    font-family: "Inria Serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffeddb;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.list-menu {
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #be916e;
+}
+.list-menu h6 {
+    font-family: "Prompt", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: aliceblue;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.list-menu h2 {
+    font-family: "Inria Serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.menu-1 {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LOGIN {
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #ffeddb;
+}
+.title {
+    font-family: "Inria Serif";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: black;
+    margin-top: 50px;
+
+    margin-bottom: 30px;
+}
+footer {
+    background-color: #be916e;
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Inria Serif";
+}
